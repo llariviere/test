@@ -73,7 +73,7 @@ var app = {
 	 
 	        displayImage(imageUri);
 	        // You may choose to copy the picture, save it somewhere, or upload.
-	        func(imageUri);
+	        // func(imageUri);
 	 
 	    }, function cameraError(error) {
 	        console.debug("Unable to obtain picture: " + error, "app");
