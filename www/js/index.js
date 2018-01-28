@@ -48,7 +48,7 @@ var app = {
     }
 };
 
-function setOptions(srcType) {
+	function setOptions(srcType) {
 	    var options = {
 	        // Some common settings are 20, 50, and 100
 	        quality: 50,
@@ -100,3 +100,4 @@ function setOptions(srcType) {
 	        }, onErrorCreateFile);
 	 
 	    }, onErrorResolveUrl);
+	}
